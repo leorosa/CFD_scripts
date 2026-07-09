@@ -1,4 +1,4 @@
-% https://github.com/leorosa/octave-streamlines/
+% https://github.com/leorosa/CFD_scripts/octave-streamlines/
 
 function yout = rk2(ydot, xend, h, y0)
     x = 0:h:xend;
